@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/borboleta2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
+
+    <title>Encrypt and Decrypt</title>
+    <meta charset="UTF-8">
+   
+   
+</head>
+<body>
+
+    <div class="container">
+        <div class="log">
+            <img class="logo-img" src="img/alura.png" alt="log">
+            <h1 class="logo-text1">Encrypt and Decrypt</h1>
+        </div>
+        <div class="aviso2">
+                    <input id="textoInput" class="text-input2" type="text" placeholder="Dígite seu texto...">
+                    <p>ATENÇÃO: Apenas letras minúsculas e sem acento.</p>
+        </div>
+        
+        <div class = "container2">
+        <div class="caixa">
+        
+        <div class="mensagem">
+            <img src="img/boneco.png" id="boneco">
+        
+            <textarea id="texto2" cols="30" rows="10">Mensagem secreta!!</textarea>
+            <button id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+        </div>
+
+        <div class="botao">
+           
+            <button  id="botao"  onclick="encriptar()">ENCRIPTAR</button> 
+            <button  id="botao2" onclick="descriptar()">DESCRIPTAR</button>
+        </div>   
+    </div>
+
+    <footer class="rodape">
+        <div class="icons">
+
+            <a href="https://www.github.com/CostaDianna/" target="_blank">
+            <ion-icon name="logo-github"></ion-icon></a>
+
+            <a href="https://www.linkedin.com/in/diana-nunes-de-sousa-costa-44b427271/" target="_blank">      
+            <ion-icon name="logo-linkedin"></ion-icon></a>
+
+            <a href="https://www.instagram.com/dianacosta_nunes/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon></a>
+            
+           
+
+        </div>
+       <p><span class="bold">Desenvolvido por DianaCosta</span>&copy;2024</p>
+    </footer>
+
+    <script src="interacao/script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</body>
+
+</html>
+
